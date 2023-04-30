@@ -1,0 +1,29 @@
+{
+  "name": "untitled",
+  "version": "1.0.0",
+  "description": "```shell git clone https://github.com/diyorbektj/mvc ``` ### Composer install ```shell composer install ``` ### Dump autoloader ```shell composer dump-autoload ```",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diyorbektj/mvc.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diyorbektj/mvc/issues"
+  },
+  "homepage": "https://github.com/diyorbektj/mvc#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "socket.io": "^4.6.1",
+    "ws": "^8.12.1"
+  },
+  "optionalDependencies": {
+    "utf-8-validate": "^6.0.3"
+  }
+}
