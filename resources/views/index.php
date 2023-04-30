@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-
-<!--    <script src="https://www.google.com/recaptcha/enterprise.js?render=6LeMycMlAAAAAC5tvGZuwE_8-WFlun4C2NpDAW8N"></script>-->
 </head>
-<body>
-<?php
-\Core\Session::start();
-$user = \Core\Session::get('user');
-?>
-<h1><?=$user?->name?></h1>
+<body style="display: flex; justify-content: center; align-items: center">
+<div>
+    <button style="background: blue; border: 0; width: auto; height: auto; padding: 12px; font-weight: bold; border-radius: 15px">
+        <a style="color:#fff;" href="/login">Login</a>
+    </button>
+    <button style="background: blue; border: 0; width: auto; height: auto; padding: 12px; font-weight: bold; border-radius: 15px">
+        <a style="color:#fff;" href="/register">Register</a>
+    </button>
+</div>
 </body>
 </html>

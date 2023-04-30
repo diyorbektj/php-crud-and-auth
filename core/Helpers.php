@@ -40,10 +40,18 @@ function abort(int $status=404, string $message="Not Found"): int
 }
 
 if(!function_exists('view')){
-    function view($view, array $data): bool|string
+    function view($view, array $data = []): bool|string
     {
         extract($data);
 
         return include_once(__DIR__."../../resources/views/$view.php");
+    }
+}
+
+if(!function_exists('redirect')){
+    function redirect($url)
+    {
+        header("Location: $url");
+        exit();
     }
 }

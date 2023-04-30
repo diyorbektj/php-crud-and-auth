@@ -20,10 +20,7 @@
     <div id="captcha"></div>
     <div class="g-recaptcha" data-sitekey="6LfGaswlAAAAAAPzKbV9PnrwG3uCarmkOSHw97Ke"></div>
     <button class="g-recaptcha"
-            data-sitekey="6LfHaswlAAAAAP7VYgrRCQyNXsoIV3va34y0C3vb"
-            data-callback='onSubmit'
-            type="submit"
-            data-action='submit'>Submit</button>
+            type="submit">Submit</button>
 </form>
 <script>
     function onSubmit(token) {
